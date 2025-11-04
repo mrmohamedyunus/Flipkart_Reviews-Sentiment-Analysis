@@ -1,69 +1,51 @@
-📦 AI-Driven Flipkart Review Sentiment Analysis & Product Recommendation System
+🛍️ Flipkart Review Sentiment Analysis & Product Recommendation Project
 
-A complete end-to-end E-commerce Intelligence Pipeline that extracts live reviews from Flipkart, performs sentiment analysis using NLP techniques, and generates data-driven product recommendations.
-Built to simulate a real-world retail AI system — from data ingestion to deployment readiness.
+This project analyzes customer reviews from Flipkart to understand product sentiment (Positive / Neutral / Negative) and recommends the best products based on real user feedback.
+It shows how AI can help e-commerce platforms make smarter decisions and improve customer experience.
 
-🎯 Project Highlights
-Capability	Description
-🔍 Web Scraping	Live extraction of Flipkart product reviews & metadata
-🧠 NLP Sentiment Analysis	Polarity scoring & classification (Positive / Neutral / Negative)
-📊 Data Insights	Visual dashboards for sentiment & product trends
-🤖 AI Recommendation Logic	LLM-based ranking using LangChain
-☁️ Deployment Ready	Modular pipeline & AWS deployment support
-📁 Repository Overview
-File	Description
-reviews_scrapping.ipynb	Selenium + BeautifulSoup web scraper, review extraction & preprocessing
-sentiment-analysis.ipynb	NLP processing, sentiment scoring & labeled dataset creation
-visualization.ipynb	Sentiment distribution & product insight visualizations
-newapp.py	Interactive app integrating scraping + sentiment output (cloud-ready)
-🧠 Technical Stack
-Category	Tools
-Language	Python
-Scraping	Selenium, BeautifulSoup, Requests
-Data Processing	Pandas
-NLP & Sentiment	TextBlob
-LLM Framework	LangChain
-Visualization	Matplotlib / Seaborn
-Infra (Future)	AWS Deployment
-🚀 Key Features
+✅ What I Built
 
-Real-time review ingestion
+Scraped real customer reviews from Flipkart
 
-Sentiment tagging pipeline
+Cleaned and processed review text
 
-Visual analytics dashboard
+Applied sentiment analysis to classify user opinions
 
-Product recommendation engine
+Visualized review insights (charts & graphs)
 
-Modular & scalable architecture
+Created a simple recommendation system
 
-📈 Evaluation Criteria
+Integrated LLM (LangChain) for smart ranking
 
-Sentiment classification performance
+Prepared the project for cloud deployment
 
-Review scraping accuracy & coverage
+🧠 Tools & Technologies
 
-Recommendation relevance
+Python
 
-Code structure & documentation quality
+Selenium, BeautifulSoup (Web Scraping)
 
-📝 Future Improvements
+Pandas (Data Processing)
 
-Transformer-based model (BERT / RoBERTa)
+TextBlob (Sentiment Analysis)
 
-Real-time streaming with APIs
+Matplotlib / Seaborn (Visualization)
 
-Full deployment on AWS with CI/CD
+🎯 Key Outcomes
 
-Front-end UI for user input & ranking
+Understand customer sentiment from reviews
 
-📬 Contact
+Recommend products based on real feedback
 
-👤 Mohamed Yunus
+Demonstrate real-world e-commerce AI workflow
+
+Hands-on experience with NLP, scraping & deployment
+
+🙌 Connect
+
+Mohamed Yunus
 📧 mryunus.in@gmail.com
 
-🔗 GitHub: github.com/mrmohamedyunus
+LangChain (AI-based logic)
 
-⭐ Feedback & Contributions
-
-Contributions, suggestions, and feature requests are welcome! Feel free to open an issue or submit a PR.
+AWS Ready (Deployment plan)
