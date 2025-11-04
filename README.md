@@ -1,124 +1,69 @@
-📦 AI-Driven Flipkart Product Review Analysis & Recommendation System
+📦 AI-Driven Flipkart Review Sentiment Analysis & Product Recommendation System
 
-In today’s competitive e-commerce landscape, understanding customer sentiment in real-time is essential for delivering better product insights, improving customer experience, and optimizing business decisions.
+A complete end-to-end E-commerce Intelligence Pipeline that extracts live reviews from Flipkart, performs sentiment analysis using NLP techniques, and generates data-driven product recommendations.
+Built to simulate a real-world retail AI system — from data ingestion to deployment readiness.
 
-This repository presents a complete AI-powered sentiment analysis and product recommendation system built using live Flipkart customer reviews. The project automates data extraction, processes user sentiments, and recommends products based on authentic customer opinions. The end solution simulates a real-world e-commerce intelligence pipeline and is deployed for interactive use.
-
-🎯 Project Objective
-
-To develop a scalable pipeline that:
-
-Scrapes live reviews from Flipkart
-
-Performs sentiment analysis to classify customer feedback
-
-Generates data-driven product recommendations
-
-Provides visual insights and dashboards
-
-Integrates LLM-based logic (LangChain) for intelligent ranking
-
-Prepares the system for AWS deployment
-
-📁 Project Structure
-🧠 Jupyter Notebooks
-File: reviews_scrapping.ipynb
-
-Description:
-Implements the web scraping workflow using Selenium & BeautifulSoup to extract real-time product reviews, ratings, and metadata from Flipkart pages. Includes:
-
-Dynamic page navigation
-
-Review extraction
-
-Cleaning & formatting raw HTML text
-
-CSV export of structured dataset
-
-File: sentiment-analysis.ipynb
-
-Description:
-Performs text preprocessing and sentiment analysis using NLP techniques and TextBlob. Covers:
-
-Text normalization
-
-Sentiment scoring
-
-Polarity classification (Positive/Neutral/Negative)
-
-Dataset labeling
-
-File: visualization.ipynb
-
-Description:
-Generates visual insights for customer sentiment distribution, product comparison, and trend analysis using Python visualization libraries.
-
-💻 Application
-File: newapp.py
-
-Description:
-Application script integrating scraping output and sentiment results, allowing users to interact with the model and view processed insights. Designed to be cloud-deployable (AWS support).
-
-📊 Capabilities & Output
-
-✅ Real-time scraping from Flipkart
-
-✅ Sentiment classification using NLP
-
-✅ Insight dashboards & charts
-
-✅ AI-based ranking using LangChain
-
-✅ Cloud-ready application script
-
-🛠️ Tech Stack
+🎯 Project Highlights
+Capability	Description
+🔍 Web Scraping	Live extraction of Flipkart product reviews & metadata
+🧠 NLP Sentiment Analysis	Polarity scoring & classification (Positive / Neutral / Negative)
+📊 Data Insights	Visual dashboards for sentiment & product trends
+🤖 AI Recommendation Logic	LLM-based ranking using LangChain
+☁️ Deployment Ready	Modular pipeline & AWS deployment support
+📁 Repository Overview
+File	Description
+reviews_scrapping.ipynb	Selenium + BeautifulSoup web scraper, review extraction & preprocessing
+sentiment-analysis.ipynb	NLP processing, sentiment scoring & labeled dataset creation
+visualization.ipynb	Sentiment distribution & product insight visualizations
+newapp.py	Interactive app integrating scraping + sentiment output (cloud-ready)
+🧠 Technical Stack
 Category	Tools
-Programming	Python
+Language	Python
 Scraping	Selenium, BeautifulSoup, Requests
 Data Processing	Pandas
 NLP & Sentiment	TextBlob
 LLM Framework	LangChain
 Visualization	Matplotlib / Seaborn
-Deployment	AWS
+Infra (Future)	AWS Deployment
 🚀 Key Features
 
-Live data ingestion pipeline
+Real-time review ingestion
 
-Automatic sentiment tagging
+Sentiment tagging pipeline
+
+Visual analytics dashboard
 
 Product recommendation engine
 
-Real-time result visualization
+Modular & scalable architecture
 
-Modular code for scalability
+📈 Evaluation Criteria
 
-Cloud deployment readiness
+Sentiment classification performance
 
-📈 Evaluation Metrics
-
-Sentiment classification accuracy
-
-Review extraction completeness
+Review scraping accuracy & coverage
 
 Recommendation relevance
 
-Code modularity & documentation quality
+Code structure & documentation quality
 
-📂 Repository Contents
-File / Folder	Description
-reviews_scrapping.ipynb	Live scraping & data extraction
-sentiment-analysis.ipynb	Sentiment computation pipeline
-visualization.ipynb	Graphs & insights visualization
-newapp.py	Application & deployment script
-data/ (if added)	Processed datasets & exports
-🙌 Acknowledgements
+📝 Future Improvements
 
-This project uses public Flipkart web data, open-source Python libraries, and LangChain for AI workflow integration.
+Transformer-based model (BERT / RoBERTa)
+
+Real-time streaming with APIs
+
+Full deployment on AWS with CI/CD
+
+Front-end UI for user input & ranking
 
 📬 Contact
 
-For queries, suggestions, or collaboration opportunities:
-
-📧 Email: mryunus.in@gmail.com
+👤 Mohamed Yunus
+📧 mryunus.in@gmail.com
 
 🔗 GitHub: github.com/mrmohamedyunus
+
+⭐ Feedback & Contributions
+
+Contributions, suggestions, and feature requests are welcome! Feel free to open an issue or submit a PR.
